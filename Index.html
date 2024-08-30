@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div id="loader" class="loader" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+    <div class="container">
+        <div class="weather-input">
+            <h3>Masukan Kota Anda</h3>
+            <input class="city-input" type="text" placeholder="Search">
+            <button class="search-btn">Search</button>
+        </div>
+        <div class="weather-data">
+            <h2>Hari Ini</h2>
+            <div class="current-weather">
+                <div class="details">
+                    <h2>_______(_______)</h2>
+                    <h4>Temp: 0°C</h4>
+                    <h6>Wind: 0/S</h6>
+                    <h6>Humidity: 0%</h6>
+                </div>
+               
+            </div>
+            <div class="days-forecast">
+                <h2>Perkiraan Cuaca 7 hari</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>________</h3>
+                        <h4>Temp-max: 0°C</h4>
+                        <h4>Temp-min: 0°C</h4>
+                    </li>
+                    <li class="card">
+                        <h3>________</h3>
+                        <h4>Temp-max: 0°C</h4>
+                        <h4>Temp-min: 0°C</h4>
+                    </li>
+                    <li class="card">
+                        <h3>________</h3>
+                        <h4>Temp-max: 0°C</h4>
+                        <h4>Temp-min: 30°C</h4>
+                    </li>
+                    <li class="card">
+                        <h3>________</h3>
+                        <h4>Temp-max: 0°C</h4>
+                        <h4>Temp-min: 0°C</h4>
+                    </li>
+                    <li class="card">
+                        <h3>________</h3>
+                        <h4>Temp-max: 0°C</h4>
+                        <h4>Temp-min: 0°C</h4>
+                    </li>
+                    <li class="card">
+                        <h3>________</h3>
+                        <h4>Temp-max: 0°C</h4>
+                        <h4>Temp-min: 0°C</h4>
+                    </li>
+                    <li class="card">
+                        <h3>________</h3>
+                        <h4>Temp-max: 0°C</h4>
+                        <h4>Temp-min: 0°C</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
